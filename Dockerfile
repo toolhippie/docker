@@ -9,4 +9,5 @@ ENTRYPOINT ["/usr/bin/docker"]
 
 RUN apk update && \
   apk upgrade && \
-  apk add docker
+  apk add docker py-pip && \
+  pip install docker-compose
