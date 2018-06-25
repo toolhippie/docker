@@ -20,4 +20,5 @@ RUN wget -q -O /usr/bin/docker-compose https://github.com/docker/compose/release
 
 RUN apk update && \
   apk upgrade && \
-  apk add docker
+  apk add docker && \
+  rm -rf /var/cache/apk/*
