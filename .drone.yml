@@ -34,6 +34,7 @@ pipeline:
   docker-microbadger:
     image: plugins/webhook:1
     pull: true
+    secrets: [ webhook_urls ]
     when:
       local: false
       event: [ push, tag ]
