@@ -1,6 +1,6 @@
-# Docker
+# docker
 
-[![Build Status](https://github.dronehippie.de/api/badges/toolhippie/docker/status.svg)](https://github.dronehippie.de/toolhippie/docker)
+[![Build Status](https://cloud.drone.io/api/badges/toolhippie/docker/status.svg)](https://cloud.drone.io/toolhippie/docker)
 [![](https://images.microbadger.com/badges/image/toolhippie/docker:latest.svg)](https://microbadger.com/images/toolhippie/docker:latest "Get your own image badge on microbadger.com")
 
 TBD
