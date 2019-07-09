@@ -1,0 +1,19 @@
+image: toolhippie/docker:latest
+manifests:
+  -
+    image: toolhippie/docker:amd64
+    platform:
+      architecture: amd64
+      os: linux
+  -
+    image: toolhippie/docker:arm64v8
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8
+  -
+    image: toolhippie/docker:arm32v6
+    platform:
+      architecture: arm
+      os: linux
+      variant: v6
